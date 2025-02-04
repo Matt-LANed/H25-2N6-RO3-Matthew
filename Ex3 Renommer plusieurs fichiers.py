@@ -26,4 +26,5 @@ for dossier in os.listdir():
     if len(real_num) == 1:
         real_num.zfill(2)
     os.rename(f"{file}{dossier}", f"{liste_stripped}#{real_num}{ext}")
-    
+
+#Rien fonctionne, quelle souffrance
